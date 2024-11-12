@@ -12,12 +12,12 @@
 
 :root {
   /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --background-color: #0077be;
+  --light-color: #00aaff;
+  --dark-color: #00ccff;
+  --text-color: #00e5ff;
+  --link-color: #00ffff;
+  --link-hover-color: #000fff;
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -254,4 +254,9 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+/* hidden section */
+main .section.hidden {
+  display: none;
 }
